@@ -1,0 +1,45 @@
+/*********** s2 포트폴리오 ********/
+    .s2>h2 {
+        height: 50px;
+        line-height: 50px;
+        font-size: 23px;
+    }
+    .slide {
+        flex-direction: column;
+        margin: 0px 35px;
+    }
+    .slide>.image {
+        width: 82%;
+        position: relative;
+        top: 5vh;
+    }
+    .slide .pf_txt_container {
+        position: relative;
+        top: 10vh;
+        width: 80%;
+    }
+    .slide .pf_txt_container .pf_title {
+        height: 35px;
+        line-height: 35px;
+        font-size: 16px;
+    }
+    .slide .pf_txt_container table {
+        width: 95%;
+        margin: auto;
+        line-height: 1.5;
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    .pf_gosite {
+        width: 50%;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .pf_gosite a {
+        width: 100%;
+        padding: 10px 0;
+        font-size: 14px;
+    }
+    .left_arrow, .right_arrow {
+        width: 20px; top: 30%;
+    }
